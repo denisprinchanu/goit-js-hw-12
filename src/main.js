@@ -1,3 +1,5 @@
+import { fetchImages } from './js/pixabay-api';
+
 import SimpleLightbox from 'simplelightbox';
 import 'simplelightbox/dist/simple-lightbox.min.css';
 
@@ -11,6 +13,10 @@ import {
     showEmptyInputMessage,
     noImagesMessage,
   } from './js/render-functions.js';
+
+
+
+
   
   const lightbox = new SimpleLightbox('.gallery a', {
     nav: true,

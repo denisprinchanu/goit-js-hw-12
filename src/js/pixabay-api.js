@@ -1,6 +1,8 @@
 import axios from 'axios';
 
 
+import {  } from './render-functions.js' 
+
 
 export async function fetchImages(searchWord, currPage) {
   const KEY = '43321607-c59baa6fd3b5340d7e6bfbfa2';
